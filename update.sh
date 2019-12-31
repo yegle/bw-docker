@@ -8,7 +8,8 @@ if [[ ${BRANCH_NAME} == "master" ]]
 then
     VERSION=""
 else
-    VERSION="@${BRANCH_NAME}"
+    # remove the v prefix.
+    VERSION="@${BRANCH_NAME##v}"
 fi
 
 docker run -v ${APP_DIR}:${APP_DIR} -w ${APP_DIR} -it --rm --entrypoint=sh \
