@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bitwarden/cli": "1.8.0"
+    "@bitwarden/cli": "1.9.1"
   }
 }
