@@ -18,3 +18,6 @@ docker run -v ${APP_DIR}:${APP_DIR} -w ${APP_DIR} -it --rm --entrypoint=sh \
     "npm init -y && npm install -E @bitwarden/cli${VERSION}"
 
 cp ${APP_DIR}/package{,-lock}.json .
+
+git add .
+git commit -m 'Update dependencies.'
