@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bitwarden/cli": "1.13.3"
+    "@bitwarden/cli": "1.22.1"
   },
   "devDependencies": {},
   "description": ""
